@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url("Outfit-VariableFont_wght.ttf") format('truetype-variable');
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('static/Outfit-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('static/Outfit-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%); 
+}
+
+.card {
+    position: absolute;
+    padding: 15px;
+    width: 320px;
+    background-color: hsl(0, 0%, 100%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 1px 12px #D1D8E2;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.card-text {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 21px;
+    margin-bottom: 14px;
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+    line-height: 1.4;
+}
+
+footer.attribution {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
